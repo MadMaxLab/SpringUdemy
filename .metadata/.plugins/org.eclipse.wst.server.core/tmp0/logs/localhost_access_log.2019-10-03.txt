@@ -1,0 +1,11 @@
+127.0.0.1 - - [03/Oct/2019:12:28:46 +0300] "GET / HTTP/1.1" 404 1094
+0:0:0:0:0:0:0:1 - - [03/Oct/2019:12:29:05 +0300] "GET /mycoolwebapp/ HTTP/1.1" 200 57
+127.0.0.1 - - [03/Oct/2019:16:34:46 +0300] "GET / HTTP/1.1" 404 1094
+0:0:0:0:0:0:0:1 - - [03/Oct/2019:16:34:48 +0300] "GET /spring-security-demo/ HTTP/1.1" 200 184
+127.0.0.1 - - [03/Oct/2019:17:22:28 +0300] "GET / HTTP/1.1" 404 1094
+0:0:0:0:0:0:0:1 - - [03/Oct/2019:17:22:29 +0300] "GET /spring-security-demo/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [03/Oct/2019:17:22:29 +0300] "GET /spring-security-demo/login HTTP/1.1" 200 556
+0:0:0:0:0:0:0:1 - - [03/Oct/2019:17:22:36 +0300] "POST /spring-security-demo/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [03/Oct/2019:17:22:36 +0300] "GET /spring-security-demo/login?error HTTP/1.1" 200 664
+0:0:0:0:0:0:0:1 - - [03/Oct/2019:17:22:46 +0300] "POST /spring-security-demo/login HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [03/Oct/2019:17:22:46 +0300] "GET /spring-security-demo/ HTTP/1.1" 200 184

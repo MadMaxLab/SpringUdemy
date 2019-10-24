@@ -1,0 +1,7 @@
+package com.luv2code.springsecurity.demo.config;
+
+import org.springframework.security.config.annotation.SecurityConfigurerAdapter;
+
+public class DemoSecurityConfig extends SecurityConfigurerAdapter<O, B> {
+
+}

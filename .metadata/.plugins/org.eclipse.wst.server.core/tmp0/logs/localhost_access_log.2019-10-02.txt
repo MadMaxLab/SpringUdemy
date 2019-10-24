@@ -1,0 +1,17 @@
+127.0.0.1 - - [02/Oct/2019:16:15:53 +0300] "GET / HTTP/1.1" 404 1094
+0:0:0:0:0:0:0:1 - - [02/Oct/2019:16:15:54 +0300] "GET /web-customer-tracker-aop/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/Oct/2019:16:15:55 +0300] "GET /web-customer-tracker-aop/customer/list HTTP/1.1" 200 2736
+0:0:0:0:0:0:0:1 - - [02/Oct/2019:16:15:55 +0300] "GET /web-customer-tracker-aop/resources/css/style.css HTTP/1.1" 200 1049
+127.0.0.1 - - [02/Oct/2019:16:43:38 +0300] "GET / HTTP/1.1" 404 1094
+0:0:0:0:0:0:0:1 - - [02/Oct/2019:16:43:39 +0300] "GET /web-customer-tracker-aop/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/Oct/2019:16:43:39 +0300] "GET /web-customer-tracker-aop/customer/list HTTP/1.1" 200 2736
+127.0.0.1 - - [02/Oct/2019:16:51:07 +0300] "GET / HTTP/1.1" 404 1094
+0:0:0:0:0:0:0:1 - - [02/Oct/2019:16:51:07 +0300] "GET /web-customer-tracker-aop/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/Oct/2019:16:51:08 +0300] "GET /web-customer-tracker-aop/customer/list HTTP/1.1" 200 2736
+0:0:0:0:0:0:0:1 - - [02/Oct/2019:16:51:13 +0300] "GET /web-customer-tracker-aop/customer/showFormForUpdate?customerId=2 HTTP/1.1" 200 1510
+0:0:0:0:0:0:0:1 - - [02/Oct/2019:16:51:13 +0300] "GET /web-customer-tracker-aop/resources/css/add-customer-style.css HTTP/1.1" 200 566
+0:0:0:0:0:0:0:1 - - [02/Oct/2019:16:51:18 +0300] "POST /web-customer-tracker-aop/customer/saveCustomer HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/Oct/2019:16:51:18 +0300] "GET /web-customer-tracker-aop/customer/list HTTP/1.1" 200 2737
+127.0.0.1 - - [02/Oct/2019:17:02:13 +0300] "GET / HTTP/1.1" 404 1094
+0:0:0:0:0:0:0:1 - - [02/Oct/2019:17:02:14 +0300] "GET /web-customer-tracker-aop/ HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/Oct/2019:17:02:15 +0300] "GET /web-customer-tracker-aop/customer/list HTTP/1.1" 200 2737
